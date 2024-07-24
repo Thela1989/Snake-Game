@@ -1,6 +1,7 @@
 const playBoard = document.querySelector(".play-board");
 const scoreElement = document.querySelector(".score");
 const highScoreElement = document.querySelector(".high-score");
+const controls = document.querySelector(".controls i");
 let gameOver = false;
 let foodX, foodY;
 let snakeX = 5,
@@ -39,6 +40,7 @@ const changeDirection = (e) => {
     velocityY = 0;
   }
 };
+
 
 const initGame = () => {
   if (gameOver) return handleGameOver();
