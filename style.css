@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000;
+
+  font-size: 100px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  margin-bottom: 750px;
+  font-family: "Bungee Spice", Static;
+  padding-left: 15px;
+}
+
+.snake-img {
+  width: 10%;
+}
+.apple-img {
+  width: 7%;
+  height: 5%;
+  margin-top: 30px;
+}
+
+.wrapper {
+  width: 65vmin;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #115795;
+  border-style: outset;
+  border-color: aliceblue;
+  font-family: "Bungee Spice", Static;
+}
+
+.game-details {
+  color: #b8c6dc;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-board {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+  background: #318d00;
+}
+
+.play-board .food {
+  background-color: #ff003d;
+  border-radius: 10px;
+}
+
+.play-board .head {
+  background-color: #0d20ee;
+  border-radius: 4px;
+}
