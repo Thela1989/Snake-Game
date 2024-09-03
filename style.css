@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   justify-content: center;
   position: absolute;
-  margin-bottom: 620px;
+ 
   font-family: "Bungee Spice", Static;
   padding-left: 15px;
 }
@@ -89,7 +89,7 @@ body {
   width: calc(100% / 4);
   border-right: 1px solid;
 }
-/*mnobile*/
+/*mobile*/
 @media only screen and (max-device-width: 480px) {
   * {
     margin: 0;
@@ -110,10 +110,9 @@ body {
   .header {
     display: flex;
     width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    position: absolute;
+   
+    font-size: 20px;
+
    
 
     font-family: "Bungee Spice", Static;
