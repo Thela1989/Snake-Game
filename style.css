@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   justify-content: center;
   position: absolute;
-  margin-bottom: 750px;
+  margin-bottom: 620px;
   font-family: "Bungee Spice", Static;
   padding-left: 15px;
 }
@@ -89,7 +89,7 @@ body {
   width: calc(100% / 4);
   border-right: 1px solid;
 }
-
+/*mnobile*/
 @media only screen and (max-device-width: 480px) {
   * {
     margin: 0;
@@ -104,7 +104,7 @@ body {
     min-height: 100vh;
     background: #000000;
 
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .header {
@@ -112,8 +112,9 @@ body {
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
     position: absolute;
-    margin-top: 50%;
+   
 
     font-family: "Bungee Spice", Static;
     padding-left: 15px;
