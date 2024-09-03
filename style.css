@@ -7,21 +7,23 @@
 
 body {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
   min-height: 100vh;
   background: #000000;
 
-  font-size: 100px;
+  font-size: 200px;
 }
 
 .header {
   display: flex;
-  width: 100%;
+
   flex-direction: row;
   justify-content: center;
-  position: absolute;
- 
+  align-items: center;
+
   font-family: "Bungee Spice", Static;
   padding-left: 15px;
 }
@@ -90,7 +92,7 @@ body {
   border-right: 1px solid;
 }
 /*mobile*/
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 640px) {
   * {
     margin: 0;
     padding: 0;
@@ -110,23 +112,21 @@ body {
   .header {
     display: flex;
     width: 100%;
-   
-    font-size: 20px;
 
-   
+    font-size: 40px;
 
     font-family: "Bungee Spice", Static;
-    padding-left: 15px;
+    margin-bottom: 10px;
   }
 
   .snake-img {
-    width: 50px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-top: 15px;
   }
   .apple-img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     margin-top: 15px;
   }
 
